@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+html{
+     background-color: #f4f4f4; 
+    
+}
+html,body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%; 
+}
+h2{
+       font-family: 'playfair Display', serif;
+    font-size: 200%;
+    font-weight: 700;
+    text-align: center;
+    color: #2c2c2c;
+    text-decoration: underline;
+}
+h3{
+    font-family: 'playfair Display', serif;
+    font-size: 150%;
+    text-align: center;
+    color: #2c2c2c;
+    text-decoration: underline;
+}
+p{
+    font-family: 'Raleway', serif;
+    font-size: 140%;
+    line-height: 100%;
+    text-align: justify;
+    font-weight: 300;
+}
+img{
+    max-width: 100%;
+    text-align: center;
+    height: auto;
+    width: auto;
+}
+.egal{
+    height: 100%;
+    width:100%;
+    margin: auto;
+    background: url(../images/egal.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    display: table;
+    top: 0px;
+}
+.egal .inner{
+    display: table-cell;
+    vertical-align: middle;
+    max-width: none;
+    width: 100%;
+}
+.riyale{
+    height: 100%;
+    width:100%;
+    margin: auto;
+    background: url(../images/daahir-riyaale.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    display: table;
+    top: 0px;
+}
+.riyale .inner{
+    display: table-cell;
+    vertical-align: middle;
+    max-width: none;
+    width: 100%;
+}
+.silanyo{
+    height: 100%;
+    width:100%;
+    margin: auto;
+    background: url(../images/silanyo-1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    display: table;
+    top: 0px;
+}
+.silanyo .inner{
+    display: table-cell;
+    vertical-align: middle;
+    max-width: none;
+    width: 100%;
+}
+
+.tuur{
+    height: 100%;
+    width:100%;
+    margin: auto;
+    background: url(../images/Tuur.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    display: table;
+    top: 0px;
+}
+.tuur .inner{
+    display: table-cell;
+    vertical-align: middle;
+    max-width: none;
+    width: 100%;
+}
+.intro{
+    height: 100%;
+    width:100%;
+    margin: auto;
+    background: url(../images/Flag-1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    display: table;
+    top: 0px;
+}
+.intro .inner{
+    display: table-cell;
+    vertical-align: middle;
+    max-width: none;
+    width: 100%;
+}
+.sides {
+    padding: 7px;
+    
+}
+
+.content{
+    max-width: 600px;
+    margin: auto;
+}
+h1{
+    font-family: 'playfair Display', serif;
+    font-weight: 700;
+    font-size: 300%;
+    color: white;
+    text-align: center;
+    padding: 2%;
+    
+}
+.content p{
+    color: white;
+    font-weight: 700;
+    text-shadow: px 250px 350px #000
+}
+.inner{
+    max-width: 600%;
+    margin: auto;
+    font-size: 170%;
+    line-height: 1.6;
+    padding: 10px;
+}
+
+/*________ Navigation bar styling ________*/
+nav{
+    height: 50px;
+    padding: 5% 5% 0% 5%;
+    float: left;
+}
+nav ul{
+    list-style: none;
+    float: left;
+}
+nav ul li{
+    font-family: 'Raleway', serif;
+    font-size: 120%;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+   text-decoration: underline;
+}
+nav ul,nav:active ul{
+    display: none;
+    left: 45px;
+    top: 60px;
+    padding: 8px 0;
+    width: 20%;
+    z-index: 1000;
+}
+nav li{
+    width: 100%;
+    padding: 8px 0 10px 7px;
+    margin: 0px;
+}
+nav:hover ul{
+    display: block;
+    position: absolute;
+}
+#menu-icon{
+    width: 30px;
+    height: 26px;
+   background: url(../images/nav-icon.png) center;
+    display: inline-block;
+    margin: 50px 0px 0px 50px;
+}
+.left-col{
+    width: 60%;
+    float: left;
+    margin: 4% 0% 4% 4%;
+}
+.sidebar{
+    width: 26%;
+    float: left;
+    margin: 4%;
+}
+.sidebar img:hover{
+    opacity: .6;
+}
+.one-third{
+    width: 29.333333%;
+    padding: 2%;
+    float: left;
+}
+.one-third:hover{
+    opacity: .6;
+}
+.content p{
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 130%;
+    color: #2c2c2c;
+}
+.content a{
+    color: #2c2c2c;
+}
+
+.clearfix{
+    clear: both;
+    height: 3%;
+}
+#unique{
+font-family: 'Raleway', serif;
+    font-size: 179%;
+    text-align: center;
+    font-weight: 300;
+    list-style: none;
+    display: block;
+}
+#unique a{
+    color: crimson;
+    text-decoration: underline;
+}
+#unique a:hover{
+    color: #2c2c2c;
+    text-transform: uppercase;
+}
+#unique ol li{
+    list-style: none;
+}
+.parallax{
+    background: url(../images/habeen.jpg) repeat fixed 100%;
+    opacity: .5;
+}
+
+.parallax-inner{
+    padding: 15%;
+}
+.social{
+    list-style: none;
+    text-align: center;
+}
+.social li{
+    display: inline;
+}
+.social i{
+    font-size: 270%;
+    margin: 1% 5% 7% 4%;
+}
+.social a{
+    color: #2c2c2c;
+}
+.social a:hover{
+    color: #606060;
+}
+.second{
+    background-color: #2c2c2c;
+}
+.second p{
+    text-align: center;
+    padding: 5%;
+    color: white;
+}
+
+@media screen and (max-width: 780px){
+    #menu-icon {
+        margin: 26px 0 0 26px;
+    }
+    nav ul, nac:active ul{
+        padding: 8px 0;
+        left: 23px;
+        top: 34px;
+        width: 50%;
+    }
+    .inner {
+        font-size: 120%;
+    }
+    .content h1{
+        font-size: 180%;
+    }
+    p{
+        font-size: 120%;
+    }
+    h2{
+        font-size:  160%;
+    }
+    .left-col{
+        margin: 0 0 3% 0;
+        padding: 0 2%;
+        width: 96%;
+    }
+
+    .sidebar{
+        width: 96%;
+        margin: 0 auto;
+    }
+    img{
+        padding: 2%;
+    }
+    .one-third{
+        width: 96%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .break{
+        display: block;
+    }
+    .parallax{
+        display: none;
+    }
+    .social{
+        font-size: 120%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
